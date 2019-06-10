@@ -1,0 +1,77 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+	margin:30px 0 0 40px;
+}
+
+.index-flash{
+	color:rgba(255,100,100,0.8);
+}
+
+h1{
+	padding-top:10px;
+	padding-bottom:20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+th{
+	padding:5px;
+	font-size:16px;
+}
+
+td{
+	padding:5px;
+	font-size:14px;
+}
+
+.new-box{
+	padding:30px 0;
+}
+
+h4{
+	padding-top:10px;
+}
+
+/*共通*/
+.link{
+	padding-top:10px;
+}
+
+/*show*/
+.show{
+	margin:40px 0 0 40px;
+}
+
+.show-text{
+	margin:20px;
+}
+
+.show-span{
+	font-size:14px;
+}
+
+
+.show-flash{
+	color:rgba(150,255,150,0.9);
+}
+
+/*edit*/
+
+.edit{
+	margin:40px 0 0 40px;
+}
+
+
